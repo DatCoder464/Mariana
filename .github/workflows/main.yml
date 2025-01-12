@@ -18,7 +18,7 @@ jobs:
         include:
           - platform: "ubuntu-22.04" # for Tauri v1 you could replace this with ubuntu-20.04.
             args: ""
-          - platform: "debian-11.4"
+          - platform: "debian-latest"
             args: ""
           - platform: "windows-latest"
             args: ""
