@@ -1,9 +1,9 @@
 let greetInputEl;
 
 window.addEventListener("DOMContentLoaded", () => {
-  greetInputEl = document.querySelector("#greet-input");
+  greetInputEl = document.querySelector("#search-input");
 
-  document.querySelector("#greet-form").addEventListener("submit", (e) => {
+  document.querySelector("#search-form").addEventListener("submit", (e) => {
     e.preventDefault();
     location.href = greetInputEl.value;
   });
